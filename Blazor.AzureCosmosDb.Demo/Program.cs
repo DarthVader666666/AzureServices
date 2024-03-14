@@ -11,8 +11,8 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<IEngineerService, EngineerService>();
 builder.Services.AddAzureClients(clientBuilder =>
 {
-    clientBuilder.AddBlobServiceClient(builder.Configuration["AzureStorageConnectionString:blob"]!, preferMsi: true);
-    clientBuilder.AddQueueServiceClient(builder.Configuration["AzureStorageConnectionString:queue"]!, preferMsi: true);
+    clientBuilder.AddBlobServiceClient(builder.Configuration["AzureStorage:blob"]!, preferMsi: true);
+    clientBuilder.AddQueueServiceClient(builder.Configuration["AzureStorage:queue"]!, preferMsi: true);
 });
 
 var app = builder.Build();
