@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo", "Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{14603D1F-6908-4DCA-8332-29B76EA3E271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{0B1DE68E-9F4F-4CA6-AD80-161EE3787DFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBudReceiver.Demo", "Console.ServiceBudReceiver\Console.ServiceBudReceiver.Demo.csproj", "{EDC8A6CE-4D5B-43B3-AF25-035B0A828678}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusSender.Demo", "Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{A0E8D8FC-6B03-4662-A3D4-8372B6B1DC79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.StorageAccount.Demo", "Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{38EBE4B4-674E-43BA-B980-46FF2F370AFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14603D1F-6908-4DCA-8332-29B76EA3E271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14603D1F-6908-4DCA-8332-29B76EA3E271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14603D1F-6908-4DCA-8332-29B76EA3E271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14603D1F-6908-4DCA-8332-29B76EA3E271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1DE68E-9F4F-4CA6-AD80-161EE3787DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1DE68E-9F4F-4CA6-AD80-161EE3787DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1DE68E-9F4F-4CA6-AD80-161EE3787DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1DE68E-9F4F-4CA6-AD80-161EE3787DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC8A6CE-4D5B-43B3-AF25-035B0A828678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC8A6CE-4D5B-43B3-AF25-035B0A828678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC8A6CE-4D5B-43B3-AF25-035B0A828678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC8A6CE-4D5B-43B3-AF25-035B0A828678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E8D8FC-6B03-4662-A3D4-8372B6B1DC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E8D8FC-6B03-4662-A3D4-8372B6B1DC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E8D8FC-6B03-4662-A3D4-8372B6B1DC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E8D8FC-6B03-4662-A3D4-8372B6B1DC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EBE4B4-674E-43BA-B980-46FF2F370AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EBE4B4-674E-43BA-B980-46FF2F370AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EBE4B4-674E-43BA-B980-46FF2F370AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EBE4B4-674E-43BA-B980-46FF2F370AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A99431C-411B-4EAB-B2ED-7A341A5DF715}
+	EndGlobalSection
+EndGlobal

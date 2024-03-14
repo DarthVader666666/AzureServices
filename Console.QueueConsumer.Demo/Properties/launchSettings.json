@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Console.QueueConsumer.Demo": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=azuredevcoursestorage;AccountKey=T/TwIjjINNNT+HKu2H68OxJ2rVWkhP/Kpvd11U8L2V5ouD9INsCB/LmwH5vJViv9VZZ3tDKwYE2X+ASt/n0+SQ==;EndpointSuffix=core.windows.net"
+      }
+    }
+  }
+}
